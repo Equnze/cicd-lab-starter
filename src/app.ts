@@ -8,7 +8,7 @@ app.get("/", (_request, response) => {
   response.type("html").send(`
     <h1>CI/CD Lab</h1>
     <p>The application is running.</p>
-    <p>Okechukwu Ikwunze.</p>
+    <p>Okechukwu M Ikwunze.</p>
     <p>Version ${version}</p>
   `);
 });
